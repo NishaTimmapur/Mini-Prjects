@@ -1,0 +1,12 @@
+
+
+<div class="flex min-h-screen items-center justify-center bg-gray-50">
+  <div class = "text-center flex-center mt-10 border border-blue-500 inline-block px-10 text-center rounded">
+    <h1 class = "text-4xl font-bold"> {{time()}} s</h1>
+     <div class = "mt-4 flex justify-center gap-3">
+        <button class="bg-green-500 px-4 py-4 text-white rounded mb-10" (click)="start()">Start</button>
+        <button class="bg-yellow-500 px-4 py-4 text-white rounded mb-10" (click) = "stop()" >Stop</button>
+        <button class="bg-red-500 px-4 py-4 text-white rounded mb-10" (click) = "reset()">Reset</button>
+    </div>
+  </div>
+</div>
